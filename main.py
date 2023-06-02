@@ -88,6 +88,7 @@ class MathEnglish:
         MathEnglish.lcp_df.loc[length, 'Total Units'] = total_units
         MathEnglish.lcp_df.loc[length, 'Course List'] = course_list
 
+
         return MathEnglish.lcp_df
 
 def calculations(lcp_df):
